@@ -1,0 +1,10 @@
+@url=http://localhost:3300/api
+  
+###
+POST {{url}}/user/login
+content-type: application/json
+
+{
+  "mail": "ricardofanetto@gmail.com",
+  "password": "123"
+}

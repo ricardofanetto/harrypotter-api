@@ -1,0 +1,35 @@
+{
+  "name": "HarryPotterApi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/main.js",
+    "dev": "nodemon ./src/main.js",
+    "debug": "nodemon --inspect ./src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "2.586.0",
+    "axios": "^0.19.2",
+    "body-parser": "1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "8.2.0",
+    "ejs": "^2.6.1",
+    "express": "4.17.1",
+    "helmet": "^4.1.1",
+    "joi": "14.3.1",
+    "jsonwebtoken": "8.5.1",
+    "lodash": "4.17.15",
+    "moment": "^2.24.0",
+    "mongoose": "5.8.4",
+    "mongoose-paginate": "^5.0.3",
+    "swagger-ui-express": "^4.1.4",
+    "uuid": "3.3.3"
+  },
+  "devDependencies": {
+    "express-swagger-generator": "^1.1.17"
+  }
+}
