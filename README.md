@@ -1,1 +1,1 @@
-# harrypotter-api
+# harry-potter-api
