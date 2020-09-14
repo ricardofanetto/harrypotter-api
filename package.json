@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node ./src/main.js",
     "dev": "nodemon ./src/main.js",
-    "debug": "nodemon --inspect ./src/main.js"
+    "debug": "nodemon --inspect ./src/main.js",
+    "test": "jest",
+    "secure-mode": "jest --watch --verbose=true"
   },
   "keywords": [],
   "author": "",
@@ -26,10 +28,14 @@
     "moment": "^2.24.0",
     "mongoose": "5.8.4",
     "mongoose-paginate": "^5.0.3",
+    "redis": "^3.0.2",
     "swagger-ui-express": "^4.1.4",
     "uuid": "3.3.3"
   },
   "devDependencies": {
-    "express-swagger-generator": "^1.1.17"
+    "express-swagger-generator": "^1.1.17",
+    "jest": "^26.4.2",
+    "sinon": "^9.0.3",
+    "supertest": "^4.0.2"
   }
 }
